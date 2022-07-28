@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  background-image: url(./lar1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  color: black;
+  text-align: center;
+  font-family: arial;
+}
+
+.efects{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 100px 0 100px 0;
+  }
+
+.lar_header{
+background-color:#4bbb5d;
+color: white;
+background-size: 100%;
+position: fixed;
+width: 100%;
+height: 100px;
+text-align: center;
+display: flow-root;
+
+}
+
+#lar_logo img{
+  width: 100px;
+  height: 90px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#menu{
+float:none;
+margin: 40px;
+
+}
+
+#menu a{
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+a:hover{
+    transition: 2s;  
+    background-color: rgb(48, 122, 25);
+}
+
+.home{
+  height: 500px;
+  padding: 250px;
+}
+
+.quem_somos{
+  height: 500px;
+  padding: 250px;
+}
+
+.missao{
+  height: 500px;
+  padding: 250px;
+}
+
+.associados{
+  height: 500px;
+  padding: 250px;
+}
+
+.contato{
+  height: 500px;
+  padding: 250px;
+}
+
+#home_logo img{
+  width: 90px;
+  height: 90px;
+  padding:10px;
+}
+
+#quem_somos_logo img{
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+#missao_logo img{
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+#associados_logo img{
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+#contato_logo img{
+  width: 80px;
+  height: 70px;
+  padding: 10px;
+}
